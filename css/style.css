@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.d-flex {
+    display: flex;
+}
 
 :root {
     --white: white;
@@ -81,9 +84,20 @@ nav a {
 h1 {
     font-size: 76px;
 }
-
-.d-flex {
-    display: flex;
+section .spostamento {
+    margin-top: 65px;
+}
+.w30 p {
+    margin-bottom:30px;
+}
+.anulla{
+    margin-top:30px;
+}
+.frecciaGiu{
+    position:absolute;
+    bottom:90px;
+    left: 0px;
+    font-size: 40px;
 }
 
 #hero img {
@@ -92,6 +106,7 @@ h1 {
 
 .w30 {
     width: 30%;
+    font-size: larger;
 }
 
 .w70 {
