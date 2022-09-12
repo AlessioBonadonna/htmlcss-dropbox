@@ -255,11 +255,9 @@ svg{
     margin-left: 40px;
 }
 #photo .w40 h3{
-    font-size: 30px;
+    font-size: 20px;
 }
-#photo .w40 div
-
-{
+#photo .w40 div{
     margin-top:30px ;
     margin-bottom:30px;
 }
@@ -268,3 +266,24 @@ svg{
     color:black;
     border:1px solid var(--black);
 }
+/*************** Terza sezione **********/
+
+#img img{
+width: 300px;
+}
+
+#img .contenitore{
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.contenitore-3-card{
+    width: calc((100% ) / 3);
+    
+}
+.contenitore-3-card div {
+    margin: 20px 0;
+}
+.contenitore-3-card h3 {
+    margin: 20px 0;
+}
+
