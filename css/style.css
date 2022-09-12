@@ -24,6 +24,21 @@ body {
     background-color: var(--white);
     font-family: Arial, Helvetica, sans-serif;
 }
+.w30 {
+    width: 30%;
+    font-size: larger;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w60{
+    width: 60%;
+}
+.w40{
+    width: 40%;
+}
 .btn{
     background-color: var(--blue);
     padding: 7px 15px;
@@ -111,14 +126,7 @@ section .spostamento {
     width: 100%;
 }
 
-.w30 {
-    width: 30%;
-    font-size: larger;
-}
 
-.w70 {
-    width: 70%;
-}
 
 /* /hero */
 /*Main */
@@ -237,4 +245,26 @@ svg{
 }
 .w30 .enter30 {
     padding:20px;
+}
+/************** Seconda sezione ************/
+.w60 img {
+    width:100%;
+}
+#photo .w40{
+    margin-top:50px;
+    margin-left: 40px;
+}
+#photo .w40 h3{
+    font-size: 30px;
+}
+#photo .w40 div
+
+{
+    margin-top:30px ;
+    margin-bottom:30px;
+}
+#whitebtn{
+    background-color: white;
+    color:black;
+    border:1px solid var(--black);
 }
