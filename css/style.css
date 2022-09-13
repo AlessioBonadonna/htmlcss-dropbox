@@ -292,3 +292,78 @@ width: 300px;
 .a-4-section{
     margin: 65px 0;
 }
+
+/** 5 SEZIONE**/
+
+.contloghi{
+    width: 20vw;
+    flex-wrap: wrap;
+}
+.quadrati-loghi{
+    width:10vw;
+    text-align: center;
+    height: 10vw;
+    position: relative;
+}
+.quadrati-loghi img{
+    filter:invert(1);
+    width: 50%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+    
+
+
+#designt{
+    background-color:#A2D39B;
+    border: 8px solid rgba(209, 233, 205, 1);
+}
+#arizona {
+    background-color: #61082B;
+}
+
+ #florida{
+background-color:rgba(0, 147, 206, 1);
+ }
+ #topps{
+    background-color: rgba(255, 28, 28, 1);
+     
+     }
+
+.contloghicnt{
+    background-color: #F5F5F5;
+    width: 60vw;
+    
+}
+.contenitore-cnt{
+    padding:20px;
+    overflow-y: auto;
+}
+.cit{
+    padding-right: 10px;
+    margin:20px 0;
+}
+.contloghicnt img {
+ height: 80px;
+ width: auto;
+ margin-bottom:35px;
+}
+
+ #bicycle{
+    background-color:rgba(213, 0, 31, 1)
+}
+#heart{
+    background-color:rgba(180, 208, 231, 1);
+}
+ #lonley{
+background-color: rgba(13, 36, 129, 1);
+ 
+ }
+ #clearcannel{
+background-color: rgba(255, 216, 48, 1);
+ }
