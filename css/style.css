@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--white);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open,sans-serif;
 }
 .w30 {
     width: 30%;
@@ -43,6 +43,9 @@ body {
     text-decoration: none;
     display: block;
 
+}
+li{
+    list-style: none;
 }
 /* per inner hero e inner footer */
 .container {
@@ -130,6 +133,7 @@ section .spostamento {
 /* /hero */
 /*Main */
 /*1 section (Plans)*/
+
 .card-container {
     margin-top: 50px;
   
@@ -337,6 +341,7 @@ width: 300px;
 .contenitore-cnt{
     padding:20px;
     overflow-y: auto;
+    margin-right:100px;
 }
 .cit{
     padding-right: 10px;
@@ -451,3 +456,75 @@ footer li{
 footer li:hover{
     text-decoration: underline;
 }
+/******** BONUS ********/
+.btn:hover{
+    background-color: rgba(45, 125, 255, 1);
+}
+#whitebtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+border:none;
+}
+/*Menu a tendina*/
+ul.menutendina li{
+    margin:0;
+    padding:0;
+    display: block;
+    position: relative;
+}
+
+ul.menutendina li a{
+    float: left;
+    padding:12px 30px;
+    color: var(--black);
+    text-transform: uppercase;
+    text-decoration:none;
+
+}
+ul.menutendina li:hover{
+    background: var(--white);
+    color: var(--black);
+}
+ul.menutendina li a:hover{
+    background: var(--white);
+    color: var(--black);
+}
+
+ul.menutendina ul{
+    margin:2px 0 0;
+    padding:0;
+    display:inline-block;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index:9999;
+    background: var(--white);
+}
+
+ul.menutendina li:hover ul{
+    background: var(--white);
+    opacity: 1;
+    visibility: visible;
+}
+
+ul.menutendina ul li{
+    display: block;
+    border: 0;
+}
+
+ul.menutendina ul a{
+    padding:10px;
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-transform: none;
+}
+
+ul.menutendina ul a:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* Pagina bonus */
