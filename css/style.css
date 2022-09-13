@@ -1,8 +1,4 @@
-/* footer */
-footer {
-    background-color: var(--black);
-    color: var(--white);
-}
+
 
 * {
     margin: 0;
@@ -18,6 +14,7 @@ footer {
     --lightblue: rgb(181, 208, 232);
     --black: black;
     --blue: #0061FF;
+    --langgray: rgb(153, 153, 153);
 }
 
 body {
@@ -121,6 +118,7 @@ section .spostamento {
     bottom:90px;
     left: 0px;
     font-size: 40px;
+    color:var(--black);
 }
 
 #hero img {
@@ -414,3 +412,42 @@ background-color: rgba(255, 216, 48, 1);
  #domanda-last{
     border-bottom:1px solid black;
  }
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    padding-top: 60px;
+}
+footer nav {
+    padding-bottom: 100px;
+}
+footer .col-nav {
+    flex-basis: calc(100% / 5);
+    line-height: 2;
+}
+footer h3 {
+    padding-bottom: 10px;
+}
+footer nav ul li a {
+    color: var(--white);
+}
+footer section div {
+    display: inline-block;
+    border-top: 1px solid white;
+    color: var(--langgray);
+    padding: 30px 0;
+}
+footer select {
+    background-color: var(--black);
+    color: var(--langgray);
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+footer li{
+    list-style: none;
+}
+footer li:hover{
+    text-decoration: underline;
+}
