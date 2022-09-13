@@ -44,6 +44,7 @@ body {
     padding: 7px 15px;
     color: var(--white);
     text-decoration: none;
+    display: block;
 
 }
 /* per inner hero e inner footer */
@@ -315,10 +316,6 @@ width: 300px;
     transform: translate(-50%, -50%)
     
 }
-
-    
-
-
 #designt{
     background-color:#A2D39B;
     border: 8px solid rgba(209, 233, 205, 1);
@@ -326,9 +323,8 @@ width: 300px;
 #arizona {
     background-color: #61082B;
 }
-
  #florida{
-background-color:rgba(0, 147, 206, 1);
+    background-color:rgba(0, 147, 206, 1);
  }
  #topps{
     background-color: rgba(255, 28, 28, 1);
@@ -366,4 +362,21 @@ background-color: rgba(13, 36, 129, 1);
  }
  #clearcannel{
 background-color: rgba(255, 216, 48, 1);
+ }
+ /*Section 6*/
+ #blue{
+    background-color: var(--lightblue);
+ }
+ #blue h2 {
+    color:rgba(97, 8, 43, 1);
+ }
+ #blue .smallercontainer{
+    justify-content: space-between;
+    align-items: baseline;
+    padding:50px;
+    margin: 0px 100px 150px 200px;
+ }
+ #blue #whitebtn{
+    border:none;
+    margin-left: 20px;
  }
