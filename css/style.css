@@ -297,13 +297,13 @@ width: 300px;
 /** 5 SEZIONE**/
 
 .contloghi{
-    width: 20vw;
+    width: 40vw;
     flex-wrap: wrap;
 }
 .quadrati-loghi{
-    width:10vw;
+    width: calc(100% / 2);
     text-align: center;
-    height: 10vw;
+    
     position: relative;
 }
 .quadrati-loghi img{
@@ -333,7 +333,7 @@ width: 300px;
 
 .contloghicnt{
     background-color: #F5F5F5;
-    width: 60vw;
+    width: calc((100% - 40 vw));
     
 }
 .contenitore-cnt{
@@ -379,4 +379,38 @@ background-color: rgba(255, 216, 48, 1);
  #blue #whitebtn{
     border:none;
     margin-left: 20px;
+ }
+ /***** Section 7 **********/
+ .domanda{
+    border-top:1px solid black;
+    position:relative;
+    min-height: 30px;
+    align-items: center;
+    padding:10px 0;
+ }
+ .domanda h4{
+    margin:10px;
+ }
+ .domanda i {
+    position:absolute;
+    top:2px;
+    right: 10px;
+ }
+ .h3-7{
+    margin-bottom : 50px;
+    font-size: 2em;
+ }
+ .domanda:hover i{
+    rotate: 180deg;
+ }
+ .domanda .scomparsa{
+    display:none;
+ }
+ 
+ 
+ .domanda:hover .scomparsa{
+    display: block;
+ }
+ #domanda-last{
+    border-bottom:1px solid black;
  }
